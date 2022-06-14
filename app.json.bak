@@ -1,0 +1,85 @@
+{
+    "name": "سورس توم",
+    "description": "تشغيل الاغاني في المجموعات",
+    "logo": "https://te.legra.ph/file/46fa55b49b85c084159ce.jpg",
+    "keywords": [
+        "py-tgcalls",
+        "telegram bot",
+        "video stream",
+        "live stream",
+        "music stream",
+        "mongodb",
+        "pyrogram"
+    ],
+    "website": "https://t.me/jepthon",
+    "repository": "https://github.com/lMl10l/lMl10l",
+    "success_url": "https://t.me/Tom01255",
+    "env": {
+     "API_ID": {
+            "description": "ايبي ايدي",
+            "required": true,
+            "value": ""
+        },
+     "API_HASH": {
+            "description": "ايبي هاش",
+            "required": true,
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "اكتب توكن",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "اكتب معرف البوت بدون @",
+            "required": true
+        },
+        "SESSION_NAME": {
+            "description": "اكتب كود بايروجرام",
+            "required": true
+        },
+        "MONGODB_URL": {
+            "description": "لا تغيرها ابد",
+            "required": true,
+            "value": "mongodb+srv://hussein87:Hussein87@cluster0.wynpz.mongodb.net/?retryWrites=true&w=majority"
+        },
+        "SUDO_USERS": {
+            "description": "اكتب ايديات المطورين",
+            "required": true,
+            "value": ""
+        },
+        "OWNER_ID": {
+            "description": "اكتب ايدي مالك البوت",
+            "required": true,
+            "value": ""
+        },
+        "OWNER_USERNAME": {
+            "description": "اكتب معرف المطور بدون @",
+            "required": true,
+            "value": "lMl10l"
+        },
+        "ALIVE_NAME": {
+            "description": "اكتب اسم المطور",
+            "required": true,
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "container"
+}
