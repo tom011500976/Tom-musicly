@@ -17,8 +17,8 @@ BOT_USERNAME = getenv("BOT_USERNAME")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/tom011500976/Tom-musicly.git")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "Meera2222")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Tom01255")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "jepthonsupport")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Tom_01157")
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL")
