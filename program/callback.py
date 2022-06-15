@@ -40,9 +40,9 @@ async def start_set(_, query: CallbackQuery):
     await query.answer("home start")
     await query.edit_message_text(
         f"""ههݪاެ حبيب [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) ❤️‍🔥\n
-اެناެ بَۅت بَمميࢪ࣪اެتَ متَعدَدةَ ݪتشغِيݪ اެݪاغاެنِي فَي اެݪمَجمَۅعاتَ 🥇.
+  (http://t.me/Tom01255)اެناެ بَۅت بَمميࢪ࣪اެتَ متَعدَدةَ ݪتشغِيݪ اެݪاغاެنِي فَي اެݪمَجمَۅعاتَ 🥇اعمل على سورس المطور توم ويوزرو .
 
--› [ᔕOᑌᖇᑕE TOᗰ 𖢅](http://t.me/Tom01255)
+-›(http://t.me/Tom01255)
 """,
         reply_markup=InlineKeyboardMarkup(
             [
